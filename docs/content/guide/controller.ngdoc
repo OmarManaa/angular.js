@@ -80,7 +80,7 @@ We attach our controller to the DOM using the `ng-controller` directive. The `gr
 now be data-bound to the template:
 
 ```js
-<div ng-controller="GreetingController">
+<div ng-app="myApp" ng-controller="GreetingController">
   {{ greeting }}
 </div>
 ```
